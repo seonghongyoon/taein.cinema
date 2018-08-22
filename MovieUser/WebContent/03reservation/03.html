@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>태인이네 영화관</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+
+<link rel='stylesheet' id='pb-main-css'  href='http://ganghwa.scinema.org/wp-content/themes/scinema/lib/dist/css/pb-main.css?ver=4.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='page-introduction-css'  href='http://ganghwa.scinema.org/wp-content/themes/scinema-branch/lib/dist/css/pages/page-introduction.css?ver=4.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='pb-child-theme-css'  href='http://ganghwa.scinema.org/skins.css?ver=4.9.3' type='text/css' media='all' />
+
+</head>
+
+<body class="blog header-white-fixed with-sidemenu with-breadcrumb skin-header-type004 skin-footer-type001 skin-homepage-type006 skin-sidewidget-default">
+<div class="pb-responsive-var">
+	<div class="xs"></div><div class="sm"></div><div class="md"></div><div class="lg"></div>
+</div>
+	<!-- MENU (login)-->
+	<nav class="navbar navbar-transparent navbar-fixed-top header-navbar white-fixed" id="pb-header">
+		<div class="type003-header-frame">
+			<div class="top-menu-frame">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#pb-mainnavbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">MENU</span> <span class="icon-bar"></span>
+							<span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class = "navbar-img-logo" href = "../main.html">
+		 					<img src = "../res/img/logo.png">
+		 				</a>
+					</div>
+					
+					<ul class = "top-menu-list hidden-xs">
+						<li class = "menu-item"><a href = "../02users/03.html">마이페이지</a></li>
+						<li class = "menu-item"><a href = "../02users/02.html">로그인</a></li>
+						<li class = "menu-item"><a href = "../02users/01.html">회원가입</a></li>
+					</ul>
+				</div>
+			</div>
+			
+		<!-- MENU(movie)  -->
+		<div class = "bottom-menu-frame">
+			<div class = "container">
+  				<div id = "pb-mainnavbar" class = "collapse navbar-collapse navbar-right">
+			 		<ul id = "pb-header-mainmenu-item" class = "nav navbar-nav menu">
+			 
+					<li id="menu-item-1" class="menu-item menu-item-type-introduction menu-item-object- menu-item-has-children menu-item-1 current-menu-item">
+					<a href="../01home/01.html">영화관소개</a>
+					<ul class="sub-menu">
+						<li id="menu-item-2" class="menu-item menu-item-type-introduction menu-item-object- menu-item-2 current-menu-item">
+							<a href="../01home/01.html">영화관소개</a></li>
+						<li id="menu-item-3" class="menu-item menu-item-type-seattable menu-item-object- menu-item-3">
+							<a href="../01home/02.html">좌석배치도</a></li>
+						<li id="menu-item-4" class="menu-item menu-item-type-seattable menu-item-object- menu-item-4">
+							<a href="../01home/03.html">주차장안내</a></li>
+					</ul>
+				</li>
+				
+				<li id="menu-item-5" class="menu-item menu-item-type-introduction menu-item-object- menu-item-has-children menu-item-1 current-menu-item">
+				<a href="../05movie/01.html">영화정보</a>
+					<ul class="sub-menu">
+						<li id="menu-item-6" class="menu-item menu-item-type-introduction menu-item-object- menu-item-6 current-menu-item">
+							<a href="../05movie/01.html">현재상영작</a></li>
+						<li id="menu-item-7" class="menu-item menu-item-type-seattable menu-item-object- menu-item-7">
+							<a href="../05movie/02.html">상영시간표</a></li>
+						<li id="menu-item-8" class="menu-item menu-item-type-seattable menu-item-object- menu-item-8">
+							<a href="../05movie/03.html">상영예정작</a></li>	
+					</ul>
+				</li>
+				
+				<li id="menu-item-9" class="menu-item menu-item-type-screening-movies menu-item-object- menu-item-has-children menu-item-9">
+				<a href="../03reservation/01.html">영화예매</a>
+					<ul class="sub-menu">
+						<li id="menu-item-10" class="menu-item menu-item-type-screening-movies menu-item-object- menu-item-10">
+				 		<a href="../03reservation/01.html">예매하기</a>	</li>
+						<li id="menu-item-11" class="menu-item menu-item-type-movie-timetable menu-item-object- menu-item-has-children menu-item-11">
+						<a href="../03reservation/02.html">예매내역</a></li>
+				 		<li id="menu-item-12" class="menu-item menu-item-type-screening-movies menu-item-object- menu-item-12">
+				 		<a href="../03reservation/03.html">위시리스트</a></li>
+					</ul>
+				</li>
+				
+				<li id="menu-item-13" class="menu-item menu-item-type-screening-movies menu-item-object- menu-item-has-children menu-item-13">
+				<a href="../04review/01.html">리뷰관리</a>
+					<ul class="sub-menu">
+						<li id="menu-item-14" class="menu-item menu-item-type-screening-movies menu-item-object- menu-item-14">
+					 		<a href="../04review/01.html">리뷰조회</a>	</li>
+						<li id="menu-item-15" class="menu-item menu-item-type-movie-timetable menu-item-object- menu-item-has-children menu-item-15">
+							<a href="../04review/02.html">리뷰등록</a></li>
+						<li id="menu-item-16" class="menu-item menu-item-type-screening-movies menu-item-object- menu-item-16">
+					 		<a href="../04review/03.html">리뷰수정</a></li>
+					</ul>
+				</li>
+			</ul>
+		  </div>
+	  </div>
+</div>
+</div>
+</nav>
+
+<!-- Menu(dropdown) -->
+	<div class="breadcrumb-wrap">
+		<div class="breadcrumb">
+			<li class=""><a href="../03reservation/03.html">위시리스트</a></li>
+	
+			<li class="dropdown">
+				<a href="" data-toggle="dropdown">영화예매
+				<i class="icon fa fa-angle-down" aria-hidden="true"></i>
+				</a>
+			
+				<ul class="dropdown-menu">
+					<li><a href="../03reservation/01.html">예매하기</a></li>
+					<li><a href="../03reservation/02.html">예매내역</a></li>
+					<li><a href="../03reservation/03.html">위시리스트</a></li>
+				</ul>
+			</li>
+		</div>
+	</div>
+
+	<div class="body-container-wrap ">
+		<div class="sidemenu-wrap">
+			<div class="sidemenu-item sidemenu-list-wrap">
+				<h3 class="sidemenu-title">영화예매</h3>
+
+				<ul class="sidemenu-list">
+					<li class="">
+						<a href="../03reservation/01.html">예매하기 
+							<i class="icon fa fa-angle-right" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li class="">
+						<a href="../03reservation/02.html">예매내역
+							<i class="icon fa fa-angle-right" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li class="active">
+						<a href="../03reservation/03.html">위시리스트
+							<i class="icon fa fa-angle-right" aria-hidden="true"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<br><h3>l　위시리스트</h3><br>
+	<div class="w3-row-padding ">
+	    <div class="w3-col l3 m6 w3-margin-bottom">
+	    	<img src="../res/img/07.jpg" alt="The Notebook" style="width:200px">
+			<h5>The Notebook</h5>
+	      <p class="w3-opacity">닉 카사베츠<br>2004.11.26</p>
+	      <p>17살, ‘노아’는 밝고 순수한 ‘앨리’를 보고 첫눈에 반한다. 
+ 			빠른 속도로 서로에게 빠져드는 둘.... </p>
+	     <p><button class="w3-button w3-light-grey w3-block"><a href="../03reservation/01.html"/>예매하기</button></p>
+ 	   </div>
+ 	   
+	    <div class="w3-col l3 m6 w3-margin-bottom">
+	      <img src="../res/img/08.jpg" alt="La La Land" style="width:200px">
+	      <h5>La La Land</h5>
+	      <p class="w3-opacity">데이미언 셔젤<br>2016.12.07</p>
+	      <p>황홀한 사랑, 순수한 희망, 격렬한 열정… 이 곳에서 모든 감정이 폭발한다!</p>
+	      <p><button class="w3-button w3-light-grey w3-block"><a href="../03reservation/01.html"/>예매하기</button></p>
+	    </div>
+	    <div class="w3-col l3 m6 w3-margin-bottom">
+	      <img src="../res/img/09.jpg" alt="La Vita E Bella, Life Is Beautiful" style="width:200px">
+	      <h5>인생은 아름다워</h5>
+	      <p class="w3-opacity">로베르토 베니니<br>1999.03.06</p>
+	      <p>‘조수아’의 다섯 살 생일, 갑작스레 들이닥친 군인들은 ‘귀도’와 ‘조수아’를 수용소 행...</p>
+	      <p><button class="w3-button w3-light-grey w3-block"><a href="../03reservation/01.html"/>예매하기</button></p>
+	    </div>
+	    <div class="w3-col l3 m6 w3-margin-bottom">
+	      <img src="../res/img/10.jpg" alt="About Time" style="width:200px">
+	      <h5>About Time</h5>
+	      <p class="w3-opacity">리차드 커티스<br>2013.12.05</p>
+	      <p>모태솔로 팀(돔놀 글리슨)은 성인이 된 날, 아버지(빌 나이)로부터 놀랄만한 가문의...</p>
+	      <p><button class="w3-button w3-light-grey w3-block"><a href="../03reservation/01.html"/>예매하기</button></p>
+	    </div>
+	 </div>
+	    
+	    <div class="w3-row-padding">
+	     <div class="w3-col l3 m6 w3-margin-bottom">
+	      <img src="../res/img/11.jpg" alt="Inception" style="width:200px">
+	      <h5>Inception</h5>
+	      <p class="w3-opacity">크리스토퍼 놀란<br>2010.07.21</p>
+	      <p>다크 나이트의 스케일과 매트릭스의 미래가 만났다 | 생각을 훔치는 거대한 전쟁</p>
+	      <p><button class="w3-button w3-light-grey w3-block"><a href="../03reservation/01.html"/>예매하기</button></p>
+	    </div>
+  </div>
+  	
+	</div>
+</body>
+</html>
